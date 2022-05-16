@@ -1,0 +1,8 @@
+applications:
+
+- path:
+  name: Automotive-Intelligence
+  domain: mybluemix.net
+  instances: 1 
+  memory: 512M
+  random-route: true
