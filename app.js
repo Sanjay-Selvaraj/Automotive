@@ -35,7 +35,7 @@ require('dotenv').config();
 const app = express();
 
 // set application port and ssl certificate
-const port = process.env.PORT || 443;
+const port = process.env.PORT || 80;
 const httpsOptions = {
     key: fs.readFileSync(path.join(__dirname,'sslcert/server.key')),
     cert: fs.readFileSync(path.join(__dirname,'sslcert/server.crt'))
