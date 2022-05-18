@@ -1,4 +1,4 @@
 applications:
- - name: automotive   
+ - name: Automotive   
    random-route: true
    memory: 256M
